@@ -1,0 +1,91 @@
+	body {
+		display: inline-block;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-ms-flex-direction: column;
+		flex-direction: column;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+		-webkit-box-align: center;
+		-ms-flex-align: center;
+		align-items: center;
+		-webkit-box-pack: center;
+		-ms-flex-pack: center;
+		justify-content: center;
+		height: 100vh;
+		font-size: 2rem;
+	}
+
+	div {
+		max-width: 600px;
+	}
+
+	/*		defoalt */
+	span {
+		background-color: #006100;
+	}
+
+	/* inline */
+	span {
+		/*			display: inline;*/
+		width: 140px;
+		height: 140px;
+		display: block;
+		background-color: #006100;
+	}
+
+	span {
+		display: inline-block;
+		background-color: #006100;
+		width: 140px;
+		height: 140px;
+	}
+
+	/*
+		span {
+			display: none;
+			background-color: #006100;
+			width: 140px;
+			height: 140px;
+		}
+*/
+
+	/*
+		span {
+		visibility: hidden;
+		background-color: #006100;
+		width: 140px;
+		height: 140px;
+		}
+*/
+
+	/*
+		span {
+		display: inherit;
+		background-color: crimson;
+		}
+*/
+	/*
+		span {
+			display: contents;
+			background-color: crimson;
+		}
+*/
+
+
+	.table {
+		display: table;
+	}
+
+	.row {
+		display: table-row;
+	}
+
+	.cell {
+		display: table-cell;
+	}
+
+	.row,
+	.cell {
+		padding: 10px;
+	}
